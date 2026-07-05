@@ -23,6 +23,8 @@
   strong { color:var(--ink); }
   a { color:var(--indigo); }
   .card { background:#fff; border:1px solid #ececf3; border-radius:16px; padding:8px 24px 20px; margin-top:8px; }
+  .pill { display:inline-block; background:#efeefe; color:var(--indigo); font-size:13px; font-weight:600;
+          padding:3px 10px; border-radius:999px; margin-bottom:6px; }
   footer { color:var(--muted); font-size:14px; margin-top:40px; text-align:center; }
 </style>
 </head>
@@ -33,25 +35,65 @@
 </header>
 <div class="wrap">
   <h1>Privacy Policy</h1>
-  <p class="updated">Last updated: June 20, 2026</p>
+  <p class="updated">Last updated: July 4, 2026</p>
   <div class="card">
-    <p><strong>Sefyra does not collect, transmit, or share any personal data.</strong></p>
+    <p><strong>Sefyra is designed to keep your data on your device.</strong> The one exception is the
+       optional AI feature, described below. Sefyra is operated by <strong>MsFrankie AI LLC</strong>
+       (&ldquo;we,&rdquo; &ldquo;us&rdquo;).</p>
+
+    <h2>What stays on your device</h2>
     <ul>
       <li><strong>No account.</strong> The app does not require sign-in.</li>
-      <li><strong>No tracking or analytics.</strong> We do not use any third-party tracking or advertising SDKs.</li>
-      <li><strong>On-device only.</strong> Everything you capture — inbox items, next actions, projects,
-          waiting-for, someday, reference, and your completed history — is stored locally on your device.
-          It is never sent to us or anyone else.</li>
-      <li><strong>Calendar.</strong> If you choose “Add to Calendar,” the app creates an event in your own
-          Apple Calendar using write-only access. We never read your calendar.</li>
+      <li><strong>No tracking or analytics.</strong> We use no third-party tracking or advertising SDKs.</li>
+      <li><strong>Your lists are local.</strong> Everything you capture — inbox items, next actions, projects,
+          waiting-for, someday, reference, and your completed history — is stored on your device (and, if you
+          enable it, synced through your own private Apple iCloud account, which we cannot see).</li>
+      <li><strong>Calendar.</strong> If you choose &ldquo;Add to Calendar,&rdquo; the app writes an event to
+          your own Apple Calendar using write-only access. We never read your calendar.</li>
     </ul>
-    <p>Because we collect no data, there is nothing for us to sell, lose, or disclose.</p>
+
+    <h2><span class="pill">✨ Optional</span> The AI feature</h2>
+    <p>Some screens offer an AI button (for example, &ldquo;Suggest next action&rdquo; or &ldquo;Break into
+       steps&rdquo;). <strong>Only when you tap one of these buttons</strong>, the text of that single item is
+       sent — over an encrypted connection — to our server and to our AI provider, <strong>Anthropic PBC</strong>,
+       so a suggestion can be generated and returned to you.</p>
+    <ul>
+      <li><strong>This is the only data that ever leaves your device</strong>, and only for the item you chose.
+          If you never tap an AI button, nothing is ever transmitted.</li>
+      <li><strong>Not linked to your identity.</strong> The app has no login. Requests use an anonymous,
+          per-install token solely to prevent abuse — not to identify you.</li>
+      <li><strong>Not sold, not used for ads or profiling.</strong> We use the text only to return your
+          suggestion.</li>
+      <li><strong>Not used to train AI models.</strong> Anthropic does not use data submitted through its
+          business API to train its models. Anthropic may retain it briefly for safety and abuse-prevention
+          purposes under its own policies, then deletes it.</li>
+      <li><strong>Not retained by us.</strong> Our server processes your request to return the suggestion and
+          does not keep the text afterward.</li>
+    </ul>
+    <p>Anthropic&rsquo;s handling of data is governed by its own terms and privacy policy at
+       <a href="https://www.anthropic.com/legal/privacy">anthropic.com/legal/privacy</a>.</p>
+
+    <h2>Data we collect — summary</h2>
+    <ul>
+      <li><strong>User Content (the text you submit to AI):</strong> used only to provide the AI suggestion.
+          Not linked to your identity. Not used for tracking or advertising.</li>
+      <li><strong>Everything else:</strong> not collected.</li>
+    </ul>
+
+    <h2>Your choices &amp; rights</h2>
+    <p>The AI feature is entirely optional and used per tap. Because we store no personal profile, there is no
+       account to access or delete. For any privacy request, contact us below and we will respond.</p>
+
+    <h2>Children</h2>
+    <p>Sefyra is not directed to children under 13, and we do not knowingly collect data from them.</p>
+
     <h2>Changes</h2>
-    <p>If this policy ever changes, the “Last updated” date above will change with it.</p>
+    <p>If this policy changes, the &ldquo;Last updated&rdquo; date above will change with it.</p>
+
     <h2>Contact</h2>
     <p>Questions? Email <a href="mailto:judy98122@icloud.com">judy98122@icloud.com</a>.</p>
   </div>
-  <footer>© 2026 Sefyra · <a href="support.html">Support</a></footer>
+  <footer>© 2026 MsFrankie AI LLC · Sefyra · <a href="support.html">Support</a> · <a href="terms.html">Terms</a></footer>
 </div>
 </body>
 </html>
